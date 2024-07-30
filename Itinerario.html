@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <link rel="stylesheet" href="./assets/css/Itinerario.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <h2>Your itinerary</h2>
+            <a href="indexusua.html"><img src="./assets/img/geoLindo.jpg" alt="" class="header-image" width="100px" height="100px"></a>
+        </div>
+        <form id="itineraryForm">
+            <div class="form-group">
+                <label for="restaurantType">Type of restaurant</label>
+                <input type="text" name="restaurantType">
+            </div>
+            <div class="form-group">
+                <label for="Addres">Addres</label>
+                <input type="text" name="direction">
+            </div>
+            <div class="form-group">
+                <label for="people">People who are going to go</label>
+                <input type="text" name="people">
+            </div>
+            <div class="form-group">
+                <label for="startDate">Start date</label>
+                <input type="date" name="startDate">
+            </div>
+            <div class="form-group">
+                <label for="endDate">End date</label>
+                <input type="date" name="endDate">
+            </div>
+            <button type="submit" id="submitButton">Send to my Itinerary</button>
+        </form>
+    </div>
+</body>
+</html>

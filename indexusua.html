@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoApp</title>
+    <link rel="stylesheet" href="./assets/css/estilosindex.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <h1>Hello, <font color="#7fbbff">Geo</font></h1>
+            <div class="menu-dots" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu" id="menu">
+                <ul>
+                    <li><button class="menu-button"><font color="#7fbbff"><i class="bi bi-gear"></i></font> Settings</button></li>
+                    <a href="indexusua.html"><li><button class="menu-button"><font color="#7fbbff"><i class="bi bi-house"></i></font> Home</button></li></a>
+                    <a href="perfilUsuario.html"><li><button class="menu-button"><font color="#7fbbff"><i class="bi bi-person"></i></font> Profile</button></li></a>
+                </ul>
+            </div>
+        </div>
+        <h2>Where are we going today?</h2>
+        <div id="content">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" placeholder="What you looking for?">
+                    <button class="search-button">
+                        <font color="#7fbbff"><i class="bi bi-search"></i></font>
+                    </button>
+                </div>
+                <div class="search-options">
+                    <a href="mapa.html"><button class="option-button"><font color="#7fbbff"><i class="bi bi-bookmark-heart"></i></font> Restaurant by qualifications</button></a>
+                    <a href="mapa.html"><button class="option-button"><font color="#7fbbff"><i class="bi bi-cash"></i></font> Restaurant by price</button></a>
+                    <a href="mapa.html"><button class="option-button"><font color="#7fbbff"><i class="bi bi-car-front-fill"></i></font> Restaurant by distance</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="assistant">
+            <div class="assistant-message">I'm your assistance menu</div>
+            <button class="assistant-button">
+                <img src="./assets/img/Geoapp.png">
+            </button>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

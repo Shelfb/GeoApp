@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Turist</title>
+    <link rel="stylesheet" href="./assets/css/perfilUsuario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="perfilusuario">
+            <h2>My profile</h2>
+            <img src="https://th.bing.com/th/id/R.baab394b13d90b82e910fe7daffe91d6?rik=j%2fgpEnKUbHUF4Q&riu=http%3a%2f%2fcdn.playbuzz.com%2fcdn%2f913253cd-5a02-4bf2-83e1-18ff2cc7340f%2fc56157d5-5d8e-4826-89f9-361412275c35.jpg&ehk=%2fLjgOG%2bOBkDVenK3gytA6rK4ZjpCTRXBnFQiOOjVHgc%3d&risl=&pid=ImgRaw&r=0" alt="Profile Picture" height="100">
+            <p id="name">Name</p>
+            <p id="email">Email</p>
+            <p id="phone">Number Phone</p>
+            <a href="#" id="edit-info">I want to edit my information</a>
+        </div>
+        <div class="itinerario">
+            <label for="itinerary-date">My itineraries</label>
+            <input type="date" id="itinerary-date" name="itinerary-date" value="2024-06-12">
+        </div>
+        <div class="acciones">
+            <button>Create my itinerary</button>
+            <br>
+            <button>Modify my itinerary</button>
+            <br>
+            <button>Delete my itinerary</button>
+            <br>
+            <div class="notificaciones">
+                <label for="notifications">
+                    <input type="checkbox"  id="notifications" name="notifications" class="checkbox"> Do you want enable notificactions?
+                </label>
+            </div>
+            <br>
+            <button id="close-account">Close my account</button>
+            <br>
+            <button class="borrar" id="delete-account">Delete my account</button>
+        </div>
+    </div>
+    <script src="./assets/js/perfilUsuario.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="./assets/css/calificacionesUsuario.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Reviews</h2>
+            <a href="indexusua.html"><img src="./assets/img/geoLindo.jpg" alt="geo" class="header-image" width="100px" height="100px"></a>
+        </div>
+        <h3>We need your opinion</h3>
+        <form id="reviewForm">
+            <div class="rating-section">
+                <label for="placeRating">How would you rate the place?</label>
+                <div class="stars"></div>
+            </div>
+            <div class="rating-section">
+                <label for="dishRating">How would you rate the chosen dish?</label>
+                <div class="stars"></div>
+            </div>
+            <div class="rating-section">
+                <label for="serviceRating">How would you rate the service?</label>
+                <div class="stars"></div>
+            </div>
+            <div class="review-section">
+                <label for="writeReview">Do you want to write a review?</label>
+                <textarea id="writeReview" rows="4"></textarea>
+            </div>
+            <div class="recommend-section">
+                <label>Would you recommend this place?</label>
+                <center>
+                <div class="recommend-buttons">
+                    <button type="yes" id="yes">Yes</button>
+                    <button type="no" class="no">No</button>
+                </div>
+            </center>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
